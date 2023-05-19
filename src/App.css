@@ -1,0 +1,226 @@
+.App {
+  text-align: center;
+  background-color: #1e1e1e;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.App-header {
+  background-color: #1e1e1e;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid #2c2c2c;
+}
+
+.chat-info {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-info {
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+#username {
+  color: white;
+  margin: 0;
+}
+
+.caption {
+  color: #8E8E8E;
+  font-size: 0.8em;
+  text-align: start;
+  margin: 0;
+}
+
+.main {
+  padding: 24px;
+  display: flex;
+  flex-flow: column;
+  gap: 28px;
+  padding-bottom: 80px;
+}
+
+.chip-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chip {
+  background-color: #242424;
+  padding: 8px 16px;
+  border-radius: 28px;
+}
+
+#chip-name {
+  color: #b7b7b7;
+  font-size: 0.7em;
+  margin: 0;
+}
+
+.sender-text-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-left: 32px;
+}
+
+.text-container {
+  width: fit-content;
+  max-width: 640px;
+  padding: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.chat-text {
+  display: inline;
+  text-align: start;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.sender-text-container {
+  background-color: #1976d2;
+  border-radius: 28px 28px 2px 28px;
+}
+
+.sender-text {
+  color: white;
+}
+
+.reciver-box {
+  padding-right: 32px;
+  display: flex;
+  flex-flow: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.reciver-text-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 8px;
+}
+
+.reciver-text-container {
+  background-color: white;
+  border-radius: 28px 28px 28px 2px;
+}
+
+.reciver-text {
+  color: #1e1e1e;
+}
+
+
+.small-avatar {
+  width: 32px;
+  height: 32px;
+}
+
+#reciver-name {
+  padding-left: 40px;
+  font-size: 0.7em;
+  color: #8E8E8E;
+  margin: 0;
+}
+
+.chat-footer {
+  display: flex;
+  align-items: center;
+  flex-flow: row;
+  height: 64px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 24px;
+  background-color: #1e1e1e;
+}
+
+.css-1nrlq1o-MuiFormControl-root {
+  width: 100%;
+}
+
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+  border-radius: 32px !important;
+  border-color: none !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  background-color: #444444 !important;
+  color: white !important;
+  border-radius: 32px;
+}
+
+.css-mf1cb5-MuiButtonBase-root-MuiIconButton-root {
+  background-color: #1976d2 !important;
+  width: 56px !important;
+  height: 56px !important;
+}
+
+.send-icon {
+  color: white;
+}
+
+.chat-footer-grid {
+  width: 100%;
+  padding: 0 24px;
+}
+
+.css-a5rdam-MuiGrid-root>.MuiGrid-item {
+  -webkit-flex-wrap: nowrap;
+}
+
+.css-a5rdam-MuiGrid-root {
+  justify-content: space-between;
+}
+
+
+@media (max-width: 768px) {
+
+  .css-ld33mk-MuiGrid-root {
+    width: 80%;
+  }
+
+}
+
+
+@media (max-width: 576px) {
+  .caption {
+    font-size: 0.7em;
+  }
+
+}
+
+
+@media (max-width: 360px) {
+
+  .css-ld33mk-MuiGrid-root {
+    width: 72%;
+  }
+
+  .css-mf1cb5-MuiButtonBase-root-MuiIconButton-root {
+    width: 56px !important;
+    height: 56px !important;
+  }
+
+}
