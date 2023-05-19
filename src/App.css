@@ -2,7 +2,7 @@
   text-align: center;
   background-color: #1e1e1e;
   min-height: 100vh;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .App-header {
@@ -41,7 +41,7 @@
 }
 
 .caption {
-  color: #8E8E8E;
+  color: #8e8e8e;
   font-size: 0.8em;
   text-align: start;
   margin: 0;
@@ -52,7 +52,7 @@
   display: flex;
   flex-flow: column;
   gap: 28px;
-  padding-bottom: 80px;
+  padding-bottom: 120px;
 }
 
 .chip-container {
@@ -130,7 +130,6 @@
   color: #1e1e1e;
 }
 
-
 .small-avatar {
   width: 32px;
   height: 32px;
@@ -139,7 +138,7 @@
 #reciver-name {
   padding-left: 40px;
   font-size: 0.7em;
-  color: #8E8E8E;
+  color: #8e8e8e;
   margin: 0;
 }
 
@@ -162,7 +161,7 @@
 .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
   border-radius: 32px !important;
   border-color: none !important;
-  font-family: 'Poppins', sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
 }
 
 .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
@@ -186,7 +185,7 @@
   padding: 0 24px;
 }
 
-.css-a5rdam-MuiGrid-root>.MuiGrid-item {
+.css-a5rdam-MuiGrid-root > .MuiGrid-item {
   -webkit-flex-wrap: nowrap;
 }
 
@@ -194,26 +193,19 @@
   justify-content: space-between;
 }
 
-
 @media (max-width: 768px) {
-
   .css-ld33mk-MuiGrid-root {
     width: 80%;
   }
-
 }
-
 
 @media (max-width: 576px) {
   .caption {
     font-size: 0.7em;
   }
-
 }
 
-
 @media (max-width: 360px) {
-
   .css-ld33mk-MuiGrid-root {
     width: 72%;
   }
@@ -222,5 +214,4 @@
     width: 56px !important;
     height: 56px !important;
   }
-
 }
