@@ -193,6 +193,7 @@
   justify-content: space-between;
 }
 
+
 @media (max-width: 768px) {
   .css-ld33mk-MuiGrid-root {
     width: 80%;

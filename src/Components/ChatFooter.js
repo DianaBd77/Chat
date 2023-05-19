@@ -1,13 +1,14 @@
 import "../App.css";
 import React, { useState, useEffect } from "react";
 import { Grid, FormControl, TextField, Box, IconButton } from "@mui/material";
-import SendIcon from "@mui/icons-material/Send";
+import SendIcon from "@mui/icons-material/Telegram";
 
 function ChatFooter({ texts }) {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
 
   const insertMessage = (message) => {
+    //add each message to message array
     if (message === "") {
       return;
     }
