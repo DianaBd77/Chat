@@ -164,11 +164,11 @@
   font-family: "Poppins", sans-serif !important;
 }
 
-/* .css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
-  background-color: #444444 !important;
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  /* background-color: #444444 !important; */
   color: white !important;
   border-radius: 32px;
-} */
+}
 
 .fab {
   background-color: #1976d2 !important;
@@ -204,6 +204,10 @@
   background-color: #444444 !important;
   color: white !important;
   border-radius: 32px;
+}
+
+.css-1v4ccyo{
+  color: white !important;
 }
 
 @media (max-width: 768px) {
