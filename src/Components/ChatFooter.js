@@ -30,6 +30,7 @@ function ChatFooter({ texts }) {
                 placeholder="Message"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
+                className="chat-textfiled"
               />
             </FormControl>
           </Box>
