@@ -1,6 +1,6 @@
 import "../App.css";
 import React, { useState, useEffect } from "react";
-import { Grid, FormControl, TextField, Box, IconButton } from "@mui/material";
+import { Grid, FormControl, TextField, Box, IconButton, Button } from "@mui/material";
 import SendIcon from "@mui/icons-material/Telegram";
 
 function ChatFooter({ texts }) {
@@ -35,14 +35,14 @@ function ChatFooter({ texts }) {
           </Box>
         </Grid>
         <Grid item sm={1}>
-          <IconButton
+          <Button
             aria-label="send"
             size="large"
             onClick={() => insertMessage(message)}
             className="fab"
           >
             <SendIcon fontSize="inherit" className="send-icon" />
-          </IconButton>
+          </Button>
         </Grid>
       </Grid>
     </div>
