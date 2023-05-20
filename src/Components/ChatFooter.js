@@ -20,7 +20,7 @@ function ChatFooter({ texts }) {
    // pass messages to parent component(App)
   useEffect(() => {
     texts(messages);
-  }, [messages]);
+  }, [messages, texts]);
 
   return (
     <div className="chat-footer">
