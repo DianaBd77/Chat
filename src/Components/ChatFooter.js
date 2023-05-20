@@ -8,14 +8,16 @@ function ChatFooter({ texts }) {
   const [messages, setMessages] = useState([]);
 
   const insertMessage = (message) => {
-    //add each message to message array
+    //if sender didn't filled message text-filed up, send button won't work
     if (message === "") {
       return;
     }
+    //add each message sended by sender to message array
     setMessages([...messages, message]);
     setMessage("");
   };
 
+   // pass messages to parent component(App)
   useEffect(() => {
     texts(messages);
   }, [messages]);
