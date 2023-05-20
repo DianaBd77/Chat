@@ -170,6 +170,12 @@
   border-radius: 32px;
 }
 
+.fab {
+  background-color: #1976d2 !important;
+  width: 56px !important;
+  height: 56px !important;
+}
+
 .css-mf1cb5-MuiButtonBase-root-MuiIconButton-root {
   background-color: #1976d2 !important;
   width: 56px !important;

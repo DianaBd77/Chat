@@ -39,6 +39,7 @@ function ChatFooter({ texts }) {
             aria-label="send"
             size="large"
             onClick={() => insertMessage(message)}
+            className="fab"
           >
             <SendIcon fontSize="inherit" className="send-icon" />
           </IconButton>
