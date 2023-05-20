@@ -200,18 +200,28 @@
   justify-content: space-between;
 }
 
-.chat-textfiled{
+.chat-textfiled {
   background-color: #444444 !important;
   color: white !important;
   border-radius: 32px;
 }
 
-.css-1v4ccyo{
+.css-1v4ccyo {
   color: white !important;
+  font-family: "Poppins", sans-serif !important;
+  border-radius: 32px !important;
+}
+
+.css-13sljp9 {
+  width: 100%;
 }
 
 @media (max-width: 768px) {
   .css-ld33mk-MuiGrid-root {
+    width: 80%;
+  }
+
+  .css-15bast {
     width: 80%;
   }
 }
@@ -230,5 +240,9 @@
   .css-mf1cb5-MuiButtonBase-root-MuiIconButton-root {
     width: 56px !important;
     height: 56px !important;
+  }
+
+  .css-15bast {
+    width: 72%;
   }
 }
