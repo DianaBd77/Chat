@@ -7,7 +7,7 @@ import ReciverTextBox from "./Components/ReciverTextBox";
 import ChatFooter from "./Components/ChatFooter";
 
 function App() {
-  const username = "Maria Fox";
+  const username = "Maria Doe";
   const messageEnd = useRef(null);
   const [messagesText, setMessagesText] = useState([]);
 
